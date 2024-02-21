@@ -7,6 +7,50 @@
 		<title>Sign-Up Form</title>
 	</head>
 	<body>
+		<div id="form-container">
+			<div id="form-left">
+				<div id="title">
+					<img id="logo" alt="Odin Log" />
+					<h1>ODIN</h1>
+				</div>
+			</div>
+			<div id="form-right">
+				<div>
+					<p>
+						This is not a real online service! You know you need something like
+						this in your life to help you realize your deepest dreams.<br />
+						Sign up <em>now</em> to get started.
+					</p>
+					<p>You <em>know</em> you want to.</p>
+				</div>
+				<div id="form-section">
+					<p>Let's do this!</p>
+					<form>
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="fname" /><br />
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname" /><br />
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" /><br />
+						<label for="phone">Phone Number</label>
+						<input type="tel" id="phone" name="phone" /><br />
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" /><br />
+						<label for="confirm-password">Confirm Password</label>
+						<input
+							type="confirm-password"
+							id="confirm-password"
+							name="confirm-password"
+						/><br />
+					</form>
+				</div>
+				<div id="create-account-section">
+					<button>Create Account</button>
+					<p>Already have an account? <span id="log-in-link">Log in</span></p>
+				</div>
+			</div>
+		</div>
+
 		<script src="./js/scripts.js"></script>
 	</body>
 </html>
