@@ -43,7 +43,7 @@
 				<div class="section-right mid-section-right">
 					<p>Let's do this!</p>
 					<div class="form-container">
-						<form>
+						<form action="#" method="get">
 							<div class="form-row">
 								<div class="form-col">
 									<label for="fname">First Name</label>
@@ -68,11 +68,14 @@
 								<div class="form-col">
 									<label for="password">Password</label>
 									<input type="password" id="password" name="password" />
+									<p id="password-error-msg" style="visibility: hidden">
+										* Passwords do not match
+									</p>
 								</div>
 								<div class="form-col">
 									<label for="confirm-password">Confirm Password</label>
 									<input
-										type="confirm-password"
+										type="password"
 										id="confirm-password"
 										name="confirm-password"
 									/>

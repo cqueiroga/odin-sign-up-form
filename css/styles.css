@@ -103,6 +103,12 @@
 	box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.2);
 }
 
+#password-error-msg {
+	color: red;
+	padding: 0px;
+	font-size: 10px;
+}
+
 .mid-section-right p {
 	font-weight: bold;
 	font-size: 20px;
@@ -112,7 +118,6 @@
 
 .form-container {
 	padding-left: 40px;
-	padding-top: 20px;
 	width: 550px;
 	font-size: 14px;
 }
@@ -133,16 +138,26 @@
 .form-container label {
 	font-size: 10px;
 	text-transform: uppercase;
+	padding-top: 20px;
 }
 
 .form-container input {
 	height: 25px;
 	width: 195px;
-	margin-bottom: 20px;
 	border-radius: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
 	border: 1px solid #e5e7eb;
+}
+
+.form-container input:focus {
+	border-color: blue;
+	box-shadow: 4px 5px 6px -3px rgba(0, 0, 0, 0.2);
+}
+
+#password.error,
+#confirm-password.error {
+	border-color: red;
 }
 
 .bottom-section-right {
@@ -171,58 +186,3 @@
 	color: #596d48;
 	font-weight: bold;
 }
-
-/* #form-left {
-	width: 400px;
-	background-image: url("/images/leaves-bg.jpeg");
-	background-size: 400px auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 500px;
-	display: flex;
-	flex-direction: column;
-} */
-
-/* #title {
-	margin-top: 80px;
-	text-align: center;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	padding: 10px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#photo-credit {
-	color: white;
-	font-size: 10px;
-	margin-top: auto;
-	text-align: center;
-	padding-bottom: 10px;
-}
-
-#photo-credit a {
-	color: white;
-}
-
-#logo {
-	width: 50px;
-}
-
-#form-right {
-	width: 550px;
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-}
-
-#form-right-top {
-	font-weight: bold;
-	width: 500px;
-	padding: 0 40px;
-}
-
-#form-right p:nth-child(1) {
-	margin: 10px 0 15px 0;
-} */
