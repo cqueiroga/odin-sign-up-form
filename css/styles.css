@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -8,13 +9,128 @@
 	src: url("/fonts/Norse-Bold.otf") format("opentype");
 }
 
-#form-container {
+.container {
+	width: 1180px;
+	height: 864px;
+	background-color: lightgreen;
+	display: flex;
+}
+
+.section-container {
+	width: 500px;
+	background-image: url("/images/leaves-bg.jpeg");
+	background-size: 576px auto;
+	background-repeat: no-repeat;
+}
+
+.section-left {
+	height: 432px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.section-left a {
+	color: white;
+}
+
+.title {
+	margin-top: 80px;
+	text-align: center;
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 10px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-#form-left {
+.top-section-left img {
+	width: 50px;
+}
+
+.top-section-left h1 {
+	color: white;
+	font-family: "norseBold", sans-serif;
+	font-size: 55px;
+	margin: 15px 0 0 0;
+}
+
+.photo-credit p {
+	margin-top: auto;
+	margin-bottom: 10px;
+}
+
+.section-right {
+	width: 745px;
+	height: 236px;
+	padding: 10px;
+}
+
+.top-section-right {
+	width: 745px;
+	height: 284px;
+	background-color: lightyellow;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-section-right p {
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: 40px;
+	width: 610px;
+	padding-left: 40px;
+	font-size: 20px;
+}
+
+.top-section-right p:nth-child(2) {
+	margin-top: 20px;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.mid-section-right {
+	background-color: white;
+	font-size: 18px;
+}
+
+.form-container {
+	display: flex;
+	padding-left: 40px;
+	padding-top: 20px;
+	width: 550px;
+	font-size: 14px;
+}
+
+.form-left-col,
+.form-right-col {
+	flex: 50%;
+}
+
+.form-container input {
+	height: 25px;
+	width: 195px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+}
+
+.mid-section-right p {
+	font-weight: bold;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+
+.bottom-section-right {
+	background-color: lightpink;
+	height: 284px;
+}
+
+/* #form-left {
 	width: 400px;
 	background-image: url("/images/leaves-bg.jpeg");
 	background-size: 400px auto;
@@ -23,9 +139,9 @@
 	height: 500px;
 	display: flex;
 	flex-direction: column;
-}
+} */
 
-#title {
+/* #title {
 	margin-top: 80px;
 	text-align: center;
 	width: 100%;
@@ -34,13 +150,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-#title h1 {
-	color: white;
-	font-family: "norseBold", sans-serif;
-	font-size: 55px;
-	margin: 15px 0 0 0;
 }
 
 #photo-credit {
@@ -74,4 +183,4 @@
 
 #form-right p:nth-child(1) {
 	margin: 10px 0 15px 0;
-}
+} */
