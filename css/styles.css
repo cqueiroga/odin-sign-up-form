@@ -17,11 +17,11 @@
 }
 
 .left-section-container {
-	width: 500px;
+	width: 465px;
 	background-image: url("/images/leaves-bg.jpeg");
 	background-size: 576px auto;
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: center;
 }
 
 .section-left {
@@ -37,7 +37,7 @@
 }
 
 .title {
-	margin-top: 80px;
+	margin-top: 195px;
 	text-align: center;
 	width: 500px;
 	background-color: rgba(0, 0, 0, 0.4);
@@ -48,19 +48,20 @@
 }
 
 .top-section-left img {
-	width: 50px;
+	width: 80px;
 }
 
 .top-section-left h1 {
 	color: white;
 	font-family: "norseBold", sans-serif;
-	font-size: 55px;
+	font-size: 85px;
 	margin: 15px 0 0 0;
 }
 
 .photo-credit p {
 	margin-top: auto;
 	margin-bottom: 10px;
+	font-size: 12px;
 }
 
 .section-right {
@@ -80,7 +81,7 @@
 .top-section-right p {
 	font-weight: bold;
 	margin-top: auto;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	width: 610px;
 	padding-left: 40px;
 	font-size: 20px;
@@ -97,7 +98,16 @@
 .mid-section-right {
 	background-color: white;
 	font-size: 18px;
-	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.2);
+}
+
+.mid-section-right p {
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-top: 10px;
 }
 
 .form-container {
@@ -121,7 +131,7 @@
 }
 
 .form-container label {
-	font-size: 12px;
+	font-size: 10px;
 	text-transform: uppercase;
 }
 
@@ -133,12 +143,6 @@
 	padding-left: 5px;
 	padding-right: 5px;
 	border: 1px solid #e5e7eb;
-}
-
-.mid-section-right p {
-	font-weight: bold;
-	padding-left: 40px;
-	padding-top: 10px;
 }
 
 .bottom-section-right {
