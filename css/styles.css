@@ -16,11 +16,12 @@
 	display: flex;
 }
 
-.section-container {
+.left-section-container {
 	width: 500px;
 	background-image: url("/images/leaves-bg.jpeg");
 	background-size: 576px auto;
 	background-repeat: no-repeat;
+	background-position: right;
 }
 
 .section-left {
@@ -86,7 +87,7 @@
 }
 
 .top-section-right p:nth-child(2) {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .italics {
@@ -99,30 +100,44 @@
 }
 
 .form-container {
-	display: flex;
 	padding-left: 40px;
 	padding-top: 20px;
 	width: 550px;
 	font-size: 14px;
 }
 
-.form-left-col,
-.form-right-col {
-	flex: 50%;
+.form-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.form-col {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.form-container label {
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .form-container input {
 	height: 25px;
 	width: 195px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 	border: 1px solid lightgray;
 }
 
 .mid-section-right p {
 	font-weight: bold;
 	padding-left: 40px;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 .bottom-section-right {
